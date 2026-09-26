@@ -20,6 +20,7 @@ services:
       - ${APP_DATA_DIR}/data/logs:/octobot/logs
     environment:
       TENTACLES_URL_TAG: "3.0.0-beta2"
+      TENTACLES_URL: "/octobot/tentacles/any_platform.zip"
     networks:
       default:
         ipv4_address: $APP_NIKIFLUX_OCTOBOT_APP_IP

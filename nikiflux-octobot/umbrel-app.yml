@@ -20,7 +20,7 @@ website: https://www.octobot.cloud
 dependencies: []
 repo: https://github.com/Drakkar-Software/OctoBot
 support: https://github.com/Drakkar-Software/OctoBot/issues
-port: 5001
+port: 8000
 gallery:
   - 1.jpg
   - 2.jpg
@@ -32,6 +32,6 @@ releaseNotes: >-
   First release of OctoBot for umbrelOS as a Community App Store package.
 
 
-  Packs OctoBot 3.0.0-beta2 with the standalone web UI on port 5001 and persistent data (user config, tentacles, backtesting and logs).
+  Packs OctoBot 3.0.0-beta2 with the OctoBot Node web UI on port 8000 and persistent data (user config, tentacles, backtesting and logs).
 submitter: NikiFlux
 submission: https://github.com/Po4ka48/umbrel-app-octobot

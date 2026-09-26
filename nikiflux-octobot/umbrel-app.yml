@@ -1,0 +1,37 @@
+manifestVersion: 1.1
+id: nikiflux-octobot
+category: finance
+name: OctoBot
+version: "3.0.0-beta2"
+tagline: Cryptocurrency trading bot
+description: >-
+  OctoBot is an open-source cryptocurrency trading bot that allows you to automate your trading strategies without writing code.
+
+
+  Its graphical interface lets you create, backtest and run strategies on many exchanges (Binance, Coinbase, Kraken, and more) with technical indicators, AI and real-time market data.
+
+
+  OctoBot is free, open-source and does not take any fees on your trades. You keep full control of your funds.
+
+
+  Warning: cryptocurrency trading is risky. Only trade with funds you can afford to lose. Past performance does not guarantee future results.
+developer: Drakkar-Software
+website: https://www.octobot.cloud
+dependencies: []
+repo: https://github.com/Drakkar-Software/OctoBot
+support: https://github.com/Drakkar-Software/OctoBot/issues
+port: 5001
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+releaseNotes: >-
+  First release of OctoBot for umbrelOS as a Community App Store package.
+
+
+  Packs OctoBot 3.0.0-beta2 with the standalone web UI on port 5001 and persistent data (user config, tentacles, backtesting and logs).
+submitter: NikiFlux
+submission: https://github.com/Po4ka48/umbrel-app-octobot

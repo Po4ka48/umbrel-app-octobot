@@ -21,6 +21,7 @@ services:
     environment:
       TENTACLES_URL_TAG: "3.0.0-beta2"
       TENTACLES_URL: "/octobot/tentacles/any_platform.zip"
+      ALLOW_UNSIGNED_TENTACLES: "true"
     networks:
       default:
         ipv4_address: $APP_NIKIFLUX_OCTOBOT_APP_IP

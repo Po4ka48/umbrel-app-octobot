@@ -3,7 +3,7 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: $APP_NIKIFLUX_OCTOBOT_APP_IP
+      APP_HOST: nikiflux-octobot_app_1
       APP_PORT: $APP_NIKIFLUX_OCTOBOT_PORT
 
   app:
@@ -24,4 +24,4 @@ services:
       ALLOW_UNSIGNED_TENTACLES: "true"
     networks:
       default:
-        ipv4_address: $APP_NIKIFLUX_OCTOBOT_APP_IP
+        ipv4_address: $APP_NIKIFLUX_OCTOBOT_IP

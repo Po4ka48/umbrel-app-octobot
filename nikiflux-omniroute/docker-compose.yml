@@ -51,4 +51,4 @@ services:
     restart: on-failure
     volumes:
       - ${APP_DATA_DIR}/data/mihomo:/root/.config/mihomo
-    command: ["-f", "/root/.config/mihomo/config.yaml"]
+    command: ["-f", "/root/.config/mihomo/config-urltest.yaml"]

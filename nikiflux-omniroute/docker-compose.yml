@@ -40,3 +40,15 @@ services:
       interval: 10s
       timeout: 5s
       retries: 3
+
+  # Local proxy core for VPN subscriptions (VLESS/VMess/Trojan/SS).
+  # Shares the app container's network namespace, so its SOCKS5 on
+  # 127.0.0.1:2080 is reachable from OmniRoute as loopback, exactly how
+  # upstream documents it (operator-run core, one loopback entry per line).
+  mihomo:
+    image: metacubex/mihomo:latest
+    network_mode: service:app
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data/mihomo:/root/.config/mihomo
+    command: ["-f", "/root/.config/mihomo/config.yaml"]

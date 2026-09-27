@@ -8,6 +8,7 @@ services:
 
   app:
     image: diegosouzapw/omniroute:latest
+    user: "0:0"
     init: true
     restart: on-failure
     sysctls:

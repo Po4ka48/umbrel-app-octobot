@@ -1,0 +1,35 @@
+manifestVersion: 1.1
+id: nikiflux-omniroute
+category: ai
+name: OmniRoute
+version: "3.8.51"
+tagline: Free MIT AI gateway — one endpoint, hundreds of providers
+description: >-
+  OmniRoute is a free, open-source AI gateway: a single OpenAI-compatible endpoint routing to hundreds of providers
+  (Claude, GPT, Gemini, DeepSeek and many more, including free tiers), with quota-aware auto-fallback, token-saving
+  compression, MCP/A2A support and a web dashboard.
+
+
+  Works with Claude Code, Codex, Cursor, OpenCode, Cline and Copilot. Point your coding agent at the gateway instead of
+  paying for every provider separately.
+
+
+  The dashboard is on port 20128. The OpenAI-compatible API listens on 20129 and the live channel on 20132 inside the
+  app network.
+developer: diegosouzapw
+website: https://omniroute.online
+dependencies: []
+repo: https://github.com/diegosouzapw/OmniRoute
+support: https://github.com/diegosouzapw/OmniRoute/issues
+port: 20128
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+releaseNotes: >-
+  First release of OmniRoute for umbrelOS as a Community App Store package.
+
+
+  Packs the OmniRoute AI gateway with Redis, persistent data and the dashboard on port 20128. API (20129) and live
+  WebSocket (20132) are reachable from inside the app network or over SSH.
+submitter: NikiFlux
+submission: https://github.com/Po4ka48/umbrel-app-octobot
